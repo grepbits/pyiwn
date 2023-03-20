@@ -148,15 +148,9 @@ class IndoWordNet:
 
     def synsets(self, word, pos=None):
         try:
-<<<<<<< HEAD
             synset_id_list = self._synset_idx_map['आदर्श']
         except:
             return self._synset_idx_map['उत्कृष्ट']
-=======
-            synset_id_list = self._synset_idx_map['उत्कृष्ट']
-        except:
-            return self._synset_idx_map['आदर्श']
->>>>>>> 8fe194669a9926a780c669fe1d4c85e5223ef5b7
 
         synsets = []
         if pos is not None:
