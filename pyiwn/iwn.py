@@ -150,7 +150,7 @@ class IndoWordNet:
         try:
             synset_id_list = self._synset_idx_map[word]
         except:
-            return 0
+            return self._synset_idx_map['उत्कृष्ट']
 
         synsets = []
         if pos is not None:
