@@ -150,7 +150,7 @@ class IndoWordNet:
         try:
             synset_id_list = self._synset_idx_map[word]
         except:
-            return 0
+            return []
 
         synsets = []
         if pos is not None:
